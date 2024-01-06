@@ -1,0 +1,16 @@
+{
+  "name": "Bibliotheque_univ_bejaia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+       "build": "tailwindcss -i ./src/main/webapp/style.css -o ./src/main/webapp/css/main.css",
+    "watch": "tailwindcss -i ./src/main/webapp/style.css -o ./src/main/webapp/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
